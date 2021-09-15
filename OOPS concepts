@@ -50,10 +50,10 @@ For example, One country can have one prime minister (one to one), and a prime m
 Also, many MP's can have one prime minister (many to one), and many ministers can have many departments (many to many).
 Association can be undirectional or bidirectional.
 
-Aggregation
-Aggregation is a way to achieve Association. Aggregation represents the relationship where one object contains other objects as a part of its state. 
-It represents the weak relationship between objects. It is also termed as a has-a relationship in Java. Like, inheritance represents the is-a relationship. 
-It is another way to reuse objects.
-
-Composition
-The composition is also a way to achieve Association. The composition represents the relationship where one object contains other objects as a part of its state. There is a strong relationship between the containing object and the dependent object. It is the state where containing objects do not have an independent existence. If you delete the parent object, all the child objects will be deleted automatically.
+Relationships
+Collaboration ('uses a') : A class has another class that is otherwise unrelated.
+Composition/ Aggregation ('has a'): A class is made up of parts from other classes.
+    The composition is also a way to achieve Association. The composition represents the relationship where one object contains other objects as a part of its state. 
+    There is a strong relationship between the containing object and the dependent object. It is the state where containing objects do not have an independent existence. 
+    If you delete the parent object, all the child objects will be deleted automatically.
+Inheritance ('is a')
