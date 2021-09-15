@@ -1,3 +1,11 @@
+Object
+A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. 
+The state of an object is stored in fields (variables), while methods (functions) display the object's behavior
+
+Class
+A class is a user defined blueprint or prototype from which objects are created.
+It represents the set of properties or methods that are common to all objects of one type
+
 Inheritance
 When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
 
@@ -15,13 +23,19 @@ Binding (or wrapping) code and data together into a single unit are known as enc
 A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
 
 Coupling
-Coupling refers to the knowledge or information or dependency of another class. 
-It arises when classes are aware of each other. 
+Dependency of a classes on another classes
+
+*************Low coupling > less dependency > changes in one class has less effects on another classes > maintenance is easier*********************
+
 If a class has the details information of another class, there is strong coupling. In Java, we use private, protected, and
 public modifiers to display the visibility level of a class, method, and field. 
 You can use interfaces for the weaker coupling because there is no concrete implementation.
 
 Cohesion
+Measure of how related everything in a class is to the purpose of the class.
+
+*******************High cohesion > well defined focus > easier to understand & test the code******************
+
 Cohesion refers to the level of a component which performs a single well-defined task. A single well-defined task is done by a highly cohesive method. The weakly cohesive method will split the task into separate parts. The java.io package is a highly cohesive package because it has I/O related classes and interface. However, the java.util package is a weakly cohesive package because it has unrelated classes and interfaces.
 
 Association
