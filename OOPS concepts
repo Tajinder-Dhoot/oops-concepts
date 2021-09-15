@@ -57,3 +57,7 @@ Composition/ Aggregation ('has a'): A class is made up of parts from other class
     There is a strong relationship between the containing object and the dependent object. It is the state where containing objects do not have an independent existence. 
     If you delete the parent object, all the child objects will be deleted automatically.
 Inheritance ('is a')
+
+Overloading and over riding
+When two or more methods in the same class have the same name but different parameters, it's called Overloading.
+When the method signature (name and parameters) are the same in the superclass and the child class, it's called Overriding.
